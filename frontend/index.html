@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Feedback / Suggestion App</h1>
+    <div class="feed">
+      <button id="feedBtn">Feedback Form</button>
+    </div>
+    <div id="information">
+     
+    </div>
+  </div>
+  <div class="feedForm">
+    <i class="fas fa-times" id="closeBtn"></i>
+    <div class="content">
+      <h1>Feedback / Suggestion Form</h1>
+      <form action="" method="post">
+        <label for="userName">Enter Name : <input type="text" placeholder="Enter Name" name="userName" id="userName" required></label>
+        <label for="userEmail">Enter Email : <input type="email" placeholder="example@email.com" name="email" id="email"> </label>
+        <label for="feedback">Enter Feedback : <textarea name="feedback" id="feedback" required></textarea></label>
+        <button id="submitBtn" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
