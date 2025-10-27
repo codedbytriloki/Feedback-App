@@ -1,0 +1,11 @@
+{
+  "name": "feedbck-app",
+  "version": "0.1.0",
+  "description": "A Simple feedback App built using HTML, CSS and JavaScript.",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
